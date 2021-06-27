@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+button{
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: #4cd137;
+}
+.aboutUs{
+  font-size: 1.5em;
+}
+/* nav */
+.logoNav{
+  width: 100px;
+  height: 100px;
+}
+.navbar-nav li a{
+  color: white !important;
+  border-radius: 50px;
+  padding: 10px;
+}
+.navbar-nav li a:hover{
+  background-color: #4cd137;
+  border-radius: 50px;
+  color: #000 !important;
+}
+.navbar-brand:hover{
+  animation: changeScale 2s;
+
+}
+@keyframes changeScale{
+  25%{
+    transform: rotate(360deg) scale(0.5);
+  }
+  50%{
+    transform: rotate(360deg) scale(0.3);
+  }
+  75%{
+    transform: rotate(360deg) scale(1.3) translateX(250px);
+  }
+}
+/* galeria de fotos */
+.imgGaleria{
+  transition: all 1.5s;
+  border-radius: 25px;
+}
+.imgGaleria:hover{
+  transform: scale(1.05);
+  box-shadow: 23px 21px 15px 0px rgba(0,0,0,0.78);
+-webkit-box-shadow: 23px 21px 15px 0px rgba(0,0,0,0.78);
+-moz-box-shadow: 23px 21px 15px 0px rgba(0,0,0,0.78);
+}
+/* footer */
+.logo{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 25px;
+  transition: all 1.5s;
+}
+.logo:hover{
+  transform: rotate(360deg) scale(1.5);
+}
+/* Videos.html */
+.videoPortada{
+  width: 100%;
+}
+.videoGaleria{
+  border-radius: 25px;
+  transition: all 1.5s;
+}
+.videoGaleria:hover{
+  transform: scale(1.05);
+  box-shadow: 23px 21px 15px 0px rgba(0,0,0,0.78);
+-webkit-box-shadow: 23px 21px 15px 0px rgba(0,0,0,0.78);
+-moz-box-shadow: 23px 21px 15px 0px rgba(0,0,0,0.78);
+}
